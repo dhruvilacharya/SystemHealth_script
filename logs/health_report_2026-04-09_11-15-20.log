@@ -1,0 +1,44 @@
+===== CPU and Memory Usage =====
+Timestamp: Thu Apr  9 11:15:20 IST 2026
+CPU Load (1, 5, 15 min): 
+Memory Usage:
+monitor_cpu_memory.sh: line 7: free: command not found
+Top Processes by Memory Usage:
+ps: illegal option -- -
+usage: ps [-AaCcEefhjlMmrSTvwXx] [-O fmt | -o fmt] [-G gid[,gid...]]
+          [-u]
+          [-p pid[,pid...]] [-t tty[,tty...]] [-U user[,user...]]
+       ps [-L]
+
+===== Disk and Network Usage =====
+Timestamp: Thu Apr  9 11:15:20 IST 2026
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    81Gi    13%    455k  845M    0%   /
+devfs            201Ki   201Ki     0Bi   100%     697     0  100%   /dev
+/dev/disk3s6     228Gi   3.0Gi    81Gi     4%       3  845M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.2Gi    81Gi    10%    1.5k  845M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   5.7Mi    81Gi     1%      62  845M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.8Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   748Ki   483Mi     1%      69  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   124Gi    81Gi    61%    1.1M  845M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Network Statistics:
+monitor_disk_network.sh: line 9: ip: command not found
+
+===== Process and User Info =====
+Timestamp: Thu Apr  9 11:15:20 IST 2026
+Currently Logged In Users:
+dhruvilacharya   console      24 Mar 14:29 
+dhruvilacharya   ttys000       9 Apr 10:41 
+
+Running Processes Count:
+ps: illegal option -- -
+usage: ps [-AaCcEefhjlMmrSTvwXx] [-O fmt | -o fmt] [-G gid[,gid...]]
+          [-g grp[,grp...]] [-u [uid,uid...]]
+          [-p pid[,pid...]] [-t tty[,tty...]] [-U user[,user...]]
+       ps [-L]
+       0
+
